@@ -34,7 +34,7 @@ def tela_ini():
 
     layout = [
         [sg.Text('ConsultaCEP', font='arial 18 bold')],
-        [sg.Column(cep)],
+        [sg.Column(cep, justification='center', element_justification='center')],
         [sg.Column(coluna1, pad=((0, 20), 0)), sg.Column(coluna2)],
         [sg.Column(botoes, justification='center')]
 

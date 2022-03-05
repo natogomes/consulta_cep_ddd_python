@@ -1,2 +1,2 @@
 # consulta_cep
- Aplicação Python que faz requisição de Cep usando framework de interface gráfica PySimpleGUI
+ Aplicação Python que faz requisição de Cep e DDD usando framework de interface gráfica PySimpleGUI

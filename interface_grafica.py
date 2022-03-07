@@ -22,7 +22,7 @@ def tela_ini():
         [sg.Text('ConsultaBR', font='arial 20 bold')],
         [sg.Text('Seja bem vindo!', font='arial 14', pad=(0, 0))],
         [sg.Text('Faça consulta de CEP e DDD para estados e cidades do Brasil', font='arial 14', pad=(0, 0))],
-        [sg.Button('CEP', font='arial 12', size=(8, 1), pad=(90, (30, 10))),
+        [sg.Button('CEP', font='arial 12', size=(8, 1), pad=(88, (30, 10))),
          sg.Button('DDD', font='arial 12', size=(8, 1), pad=(100, (30, 10)))],
         [sg.Frame(layout=coluna1, title='', element_justification='center', pad=(30, 0)),
          sg.Frame(layout=coluna2, title='', element_justification='center', pad=(30, (0, 104)))],

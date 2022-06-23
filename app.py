@@ -9,7 +9,6 @@ while True:
         break
 
     if event == 'DDD':
-        window.close()
         tela_ddd()
         while True:
             window, event, values = sg.read_all_windows()
@@ -19,7 +18,6 @@ while True:
 
             elif event == 'Voltar':
                 window.close()
-                tela_ini()
                 break
 
             elif event == 'Consultar':
@@ -39,7 +37,6 @@ while True:
                              '                       ou se está conectado a internet', font='arial 12', title='ERRO')
 
     elif event == 'CEP':
-        window.close()
         tela_cep()
         while True:
             window, event, values = sg.read_all_windows()
@@ -68,7 +65,6 @@ while True:
 
             elif event == 'Voltar':
                 window.close()
-                tela_ini()
                 break
 
 

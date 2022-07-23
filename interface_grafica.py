@@ -2,6 +2,10 @@ import PySimpleGUI as sg
 
 
 def tela_ini():
+    """
+    -> Cria a janela inicial do programa com suas configurações.
+    :return: Sem retorno.
+    """
     sg.theme('DarkGrey2')
 
     coluna1 = [
@@ -36,6 +40,10 @@ def tela_ini():
 
 
 def tela_cep():
+    """
+    -> Cria a janela de consulta CEP e suas configurações.
+    :return: Sem retorno
+    """
     sg.theme('DarkGrey2')
 
     cep = [
@@ -80,6 +88,10 @@ def tela_cep():
 
 
 def tela_ddd():
+    """
+    -> Cria a janela de consulta DDD e suas configurações.
+    :return: Sem retorno.
+    """
     sg.theme('DarkGrey2')
 
     ddd = [

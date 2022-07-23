@@ -1,13 +1,13 @@
 from consulta import *
 from interface_grafica import *
 
-
+# ABRE A JANELA INICIAL DO PROGRAMA
 tela_ini()
 while True:
     window, event, values = sg.read_all_windows()
     if event == sg.WIN_CLOSED:
         break
-
+# ABRE A JANELA PARA PESQUISA DE DDD
     if event == 'DDD':
         tela_ddd()
         while True:
@@ -36,6 +36,7 @@ while True:
                     sg.Popup('Verifique se o campo "DDD" foi preenchido corretamente\n'
                              '                       ou se está conectado a internet', font='arial 12', title='ERRO')
 
+    # ABRE A JANELA PARA PESQUISA DE CEP
     elif event == 'CEP':
         tela_cep()
         while True:
